@@ -1,2 +1,2 @@
 # todo-list
-A todo list written in React
+A todo list practice written in React
