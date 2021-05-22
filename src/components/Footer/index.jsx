@@ -27,10 +27,10 @@ export default class Footer extends Component {
 					/>
 				</label>
 				<span>
-					<span>已完成 {doneCount}</span> / 全部 {total}
+					<span>Done {doneCount}</span> / All {total}
 				</span>
 				<button className="btn btn-danger" onClick={this.clearDone}>
-					清除已完成任务
+					Clear Done todos
 				</button>
 			</div>
 		)
