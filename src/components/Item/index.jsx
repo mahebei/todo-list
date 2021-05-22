@@ -40,7 +40,7 @@ export default class Item extends Component {
 					className="btn btn-danger"
 					style={{ display: isMouseIn ? "block" : "none" }}
 					onClick={this.handleDel(id)}>
-					删除
+					Delete
 				</button>
 			</li>
 		)
